@@ -38,6 +38,9 @@ public class shapes {
     public static void main (String [] args){
 
         shapes shape = new shapes();
+        shapes r = new Rectangle();
+           
+        System.out.println(r.calcArea(30));
         System.out.println(shape.calcArea(23));
         System.out.println(shape.calcArea(3.0));
         System.out.println(shape.calcArea(23,4));
